@@ -1,10 +1,10 @@
 // Dependencies
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Content extends Component {
   static propTypes = {
-    body: PropTypes.object.isRequired
+    body: PropTypes.object.isRequired,
   };
 
   render() {

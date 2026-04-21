@@ -1,20 +1,24 @@
 module.exports = {
   env: {
-    browser: true // include global variables (like document, window, etc.)
+    browser: true,
+    es2021: true
   },
+
   extends: [
-    "eslint:recommended", // You can see all rules in https://eslint.org/docs/rules
+    "eslint:recommended",
     "plugin:react/recommended"
   ],
-  parser: "babel-eslint",
+
   plugins: ["react"],
-  rules: {
-    indent: ["error", 4],
-    "no-trailing-spaces": ["error"]
-  },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
+
+  settings: {
+    react: {
+      version: "detect"
     }
+  },
+
+  rules: {
+    "react/prop-types": "warn",
+    "react/no-unknown-property": "warn"
   }
 };

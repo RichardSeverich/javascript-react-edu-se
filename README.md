@@ -1,24 +1,19 @@
 # javascript-react-edu-se
 
-1. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-2. This project is using redux (4.0.5).
-3. This project is using react redux (7.1.3)
-4. This project is using semantic ui.
-
 ## Prerequisites
 
 1. Install Windows 10
-2. Install node.js version 10.16.3
-3. Install npm version 6.9.0
-4. Install google Chrome 64 Bits Version 64.0
+2. Install node.js version 24.14.1
+
 
 ## Deploy
 
 1. Do git clone from: https://github.com/RichardSeverich/javascript-react-edu
-2. Install dependencies: npm install
-3. Deploy: npm start
-4. Deploy will start with mock data.
-5. Default credentials are: User: admin, Password: admin123
+2. use the following branch: app-instrumentada
+3. Install dependencies: npm install
+4. Deploy: npm run dev
+5. Deploy will start with mock data.
+6. Default credentials are: User: admin, Password: admin123
 
 ## Documentation
 

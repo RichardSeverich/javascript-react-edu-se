@@ -1,5 +1,5 @@
 const reducer = (state = 0, action) => {
-  switch (action.type) {
+    switch (action.type) {
     /*case "INCREMENT":
       return {
         ...state, //preserve current state, apply changes to it below
@@ -18,14 +18,14 @@ const reducer = (state = 0, action) => {
     default:
       return state;
   }*/
-    case "INCREMENT":
-      return state + 1;
-    case "DECREMENT":
-      return state - 1;
-    case "RESET":
-      return 0;
+    case 'INCREMENT':
+        return state + 1;
+    case 'DECREMENT':
+        return state - 1;
+    case 'RESET':
+        return 0;
     default:
-      return state;
-  }
+        return state;
+    }
 };
 export default reducer;
