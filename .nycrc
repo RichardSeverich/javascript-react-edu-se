@@ -1,0 +1,32 @@
+{
+  "all": true,
+  "check-coverage": false,
+  "extension": [
+    ".js",
+    ".jsx"
+  ],
+  "include": [
+    "src/**/*.{js,jsx}"
+  ],
+  "exclude": [
+    "**/*.test.*",
+    "**/*.spec.*",
+    "coverage/**",
+    ".nyc_output/**",
+    "node_modules/**"
+  ],
+  "reporter": [
+    "html",
+    "lcov",
+    "text-summary"
+  ],
+  "report-dir": "./coverage",
+  "temp-dir": "./.nyc_output",
+  "sourceMap": true,
+  "instrument": false,
+  "cache": false,
+  "statements": true,
+  "branches": true,
+  "functions": true,
+  "lines": true
+}
